@@ -7,6 +7,6 @@ for i in range(25):
             pass
         with open(f'./Day {day}/day{day}.py', 'a+') as file:
             file.write(f"""file = open('./Day {day}/input.txt', 'r')
-                            input = [line.strip() for line in file]""")
+input = [line.strip() for line in file]""")
     except:
         pass
